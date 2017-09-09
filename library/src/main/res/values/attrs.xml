@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LayerCropView">
+
+        <attr name="guidelines">
+            <enum name="off" value="0"/>
+            <enum name="onTouch" value="1"/>
+            <enum name="on" value="2"/>
+        </attr>
+
+        <attr name="fixAspectRatio" format="boolean"/>
+        <attr name="aspectRatioX" format="integer"/>
+        <attr name="aspectRatioY" format="integer"/>
+
+        <attr name="border_color" format="color|reference" />
+        <attr name="border_thickness" format="dimension|reference" />
+
+        <attr name="corner_thickness" format="dimension|reference" />
+        <attr name="corner_color" format="color|reference" />
+        <attr name="corner_length" format="dimension|reference" />
+
+        <attr name="guideline_color" format="color|reference" />
+        <attr name="guideline_thickness" format="dimension|reference" />
+        <attr name="overlay_color" format="color|reference" />
+        <attr name="snap_radius" format="dimension" />
+        <attr name="target_radius" format="dimension" />
+
+
+
+    </declare-styleable>
+
+</resources>
